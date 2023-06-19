@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Проверка наличия данных
     if (!empty($name) && !empty($email) && !empty($message)) {
         // Отправка данных на почту
-        $to = "your-email@example.com"; // Замените на ваш адрес электронной почты
+        $to = "nikitovich60@bk.ru"; // Замените на ваш адрес электронной почты
         $subject = "Новое сообщение от $name";
         $body = "Имя: $name\nEmail: $email\nСообщение: $message";
         $headers = "From: $email";
