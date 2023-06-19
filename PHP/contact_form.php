@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!-- Ваш HTML-код формы -->
-<form action="" method="POST">
+<form action="PHP/contact_form.php" method="POST">
   <label for="name">Имя:</label>
   <input type="text" id="name" name="name" required><br>
 
